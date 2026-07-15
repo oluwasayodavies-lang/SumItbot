@@ -1,0 +1,15 @@
+[project]
+name = "SumItBot"
+version = "1.0.0"
+description = "A Telegram bot that summarizes text"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "python-telegram-bot==20.7",
+    "openai==1.12.0",
+    "python-dotenv==1.0.1",
+    "PyPDF2==3.0.1",
+    "python-docx==1.1.0",
+    "striprtf==0.0.26",
+    "aiohttp==3.9.1"
+]
